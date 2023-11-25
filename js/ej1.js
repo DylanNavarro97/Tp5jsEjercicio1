@@ -25,7 +25,7 @@ form.addEventListener('submit', (e) => {
     } else if (valorIngresado < numeroAleatorio && typeof(valorIngresado) === 'number'){
         alert("El número que ingresaste es más bajo, proba con un número más alto")
     } else if (valorIngresado === numeroAleatorio && typeof(valorIngresado) === 'number'){
-        alert(`Acertaste, el numero era ${numeroAleatorio}`)
+        alert(`Acertaste, el número era ${numeroAleatorio}`)
         juegoIniciado = false
         form.className = 'd-none'
         botonReplay.className = 'btn btn-success'
